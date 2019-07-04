@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>你好啊</title>
+</head>
+<body>
+    <h3>Hello <span style="color:#ffa6fc;" th:text="${name}"></span>,the author is guowh!</h3>
+    <a th:href="@{'/flower/getRose?name='+${name}}">点这里看花花</a>
+</body>
+</html>
